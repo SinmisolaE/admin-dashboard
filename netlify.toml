@@ -1,8 +1,8 @@
 [build]
-  command = "ng build --no-ssr"
+  command = "ng build"
   publish = "dist/admin-dashboard/browser"
 
 [[redirects]]
   from = "/*"
-  to = "/index.html"
+  to = "/index.csr.html"
   status = 200
